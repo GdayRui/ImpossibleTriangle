@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    padding:0;
+    margin: 0;
+    background-color: #0f132b!important;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+section{
+    padding:0px 0px!important;
+}
+
+
+/* carousel & nav */
+#nav {
+  background-color: #0f132b;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  z-index: 2000;
+}
+#navbarResponsive a{
+    padding-right:30px;
+    color:#999!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 30px;
+}
+#navbarResponsive a:link{
+    color:#999!important;
+}
+#navbarResponsive a:hover{
+    color:#fff!important;
+}
+#navbarResponsive a:active{
+    color:#fff!important;
+}
+#navbarResponsive a:visited{
+    color:#999;
+}
+#navbarResponsive {
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#356aa0+0,202d56+0,0f132c+100 */
+
+background: #0f132b; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #0f132b 0%, #0f132b 0%, #0f132b 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  #0f132b 0%, #0f132b 0%, #0f132b 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  #0f132b 0%, #0f132b 0%, #0f132b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f132b', endColorstr='#0f132b',GradientType=0 ); /* IE6-9 */
+
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.carousel-caption {
+    top: 48%;
+    transform: translateY(-40%);
+}
+
+h1 {
+    font-weight: 100;
+}
+.navbar-brand img {
+    padding-top: 10px;
+}
+.carousel-caption p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.btn-outline-primary {
+  background-color: #eb7f91;
+  border-color: #eb7f91;
+  color: #0f132b;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.btn-outline-primary:hover {
+  background-color: rgba(15, 19, 43, 0);
+  border-color: #eb7f91;
+  color: #eb7f91;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.btn-outline-secondary {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+
+
+/* about */
+#about {
+   background-color: #f2f2f2 ;
+}
+#about .rounded-circle {
+    border: 0.4rem solid #fff;
+    width: 80%;
+}
+.pad{
+    padding-top:35px;
+}
+
+
+/* services */
+#service {
+    background-image: url(../img/other/3dprinting.jpg)
+}
+#service h1 {
+    color: #fff;
+}
+#service i {
+    color: #fff;
+    font-size: 3.5rem;
+}
+#service h5 {
+    color :#fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#service p{
+    color: #ccc;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* gallary */
+#gallary {
+    background-color: #f2f2f2;
+}
+#gallary p {
+    font-family: 'Raleway', sans-serif;
+}
+#comment {
+    background-color: #eb7f91 !important;
+    color: #0f132b;
+    font-family: 'Raleway', sans-serif;
+}
+.card-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* upload */
+#upload {
+  background-color: #fff;
+}
+form {
+  height:auto!important;
+}
+
+/* contact */
+#contact {
+    color:#ccc;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* footer */
+#footer p{
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+#footer i{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 0 0.5rem;
+}
+#footer i:link{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 0 0.5rem;
+}
+#footer i:hover{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0 0.5rem;
+}
+#footer i:visited{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 0 0.5rem;
+}
+#footer i:active{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 0 0.5rem;
+}
+
+
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.modal-backdrop{
+  z-index: 2!important;
+}
