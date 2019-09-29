@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media (min-width:600px){
+    #navbarResponsive a{
+        padding-right:30px;
+    }
+}
 
 body {
     padding:0;
@@ -25,7 +30,6 @@ section{
   z-index: 2000;
 }
 #navbarResponsive a{
-    padding-right:30px;
     color:#999!important;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -73,6 +77,7 @@ h1 {
 }
 .navbar-brand img {
     padding-top: 10px;
+    width: 250px;
 }
 .carousel-caption p {
     font-family: 'Roboto', sans-serif;
@@ -214,4 +219,30 @@ form {
 
 .modal-backdrop{
   z-index: 2!important;
+}
+
+
+@media (max-width: 600px){
+
+    .navbar-brand img {
+        width: 180px;
+    }
+
+    #navbarResponsive a {
+        padding-right: none;
+    }
+
+    .nav-link{
+        text-align: center;
+    }
+
+    .nav-item{
+        text-align: center;
+    }
+
+}
+
+
+#carouselExampleIndicators{
+    top: 100px;
 }
