@@ -1,2 +1,2 @@
 # ImpossibleTriangle
-Responsive website
+https://gdayrui.github.io/ImpossibleTriangle/
